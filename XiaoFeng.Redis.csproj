@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <TargetFrameworks>.netstandard2.0;.netstandard2.1;</TargetFrameworks>
+	  <OutputType>Library</OutputType>
+	  <Authors>Jacky</Authors>
+	  <Product>XiaoFeng.Redis中间件</Product>
+	  <Description>Redis中间件,支持.NET框架、.NET内核和.NET标准库,一种非常方便操作的客户端工具。实现了Hash,Key,String,ZSet,Stream,Log,List,订阅发布,线程池功能;</Description>
+	  <Copyright>CopyRight © 2008-2024 魔法精灵(www.fayelf.com) QQ:7092734 Email:jacky@fayelf.com</Copyright>
+	  <Company>魔法精灵</Company>
+	  <VersionPrefix>2.0</VersionPrefix>
+	  <VersionSuffix>0</VersionSuffix>
+	  <Version>$(VersionPrefix).$(VersionSuffix)</Version>
+	  <FileVersion>$(Version)</FileVersion>
+	  <AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+	  <ProductVersion>$(VersionPrefix)</ProductVersion>
+	  <Deterministic>false</Deterministic>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+	  <SignAssembly>False</SignAssembly>
+	  <EnableNETAnalyzers>False</EnableNETAnalyzers>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <RepositoryUrl>https://github.com/zhuovi/XiaoFeng.Redis</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageIconUrl>http://nuget.fayelf.com/x.png</PackageIconUrl>
+	  <PackageTags>XiaoFeng;FAYELF;Redis;</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReleaseNotes>打包基础版本</PackageReleaseNotes>
+	  <DelaySign>False</DelaySign>
+	  <IsPackable>true</IsPackable>
+	  <PackageProjectUrl>https://github.com/zhuovi/XiaoFeng.Redis</PackageProjectUrl>
+	  <Title>XiaoFeng.Redis</Title>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XiaoFeng.Core\XiaoFeng.Core.csproj" />
+  </ItemGroup>
+</Project>
