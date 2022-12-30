@@ -22,13 +22,13 @@ QQ群二维码：
 
 源码： https://github.com/zhuovi/xiaofeng.redis
 
-教程： https://www.yuque.com/fayelf/xiaofeng.redis
+教程： https://www.yuque.com/fayelf/xiaofeng
 
 Redis中间件,支持.NET框架、.NET内核和.NET标准库,一种非常方便操作的客户端工具。实现了Hash,Key,String,ZSet,Stream,Log,订阅发布,线程池功能。
 
 ## XiaoFeng.Redis
 
-XiaoFeng generator with [XiaoFeng.Redis](https://github.com/zhuovi/XiaoFeng.Redis).
+XiaoFeng.Redis generator with [XiaoFeng.Redis](https://github.com/zhuovi/XiaoFeng.Redis).
 
 ## Install
 
