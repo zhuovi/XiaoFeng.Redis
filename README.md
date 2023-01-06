@@ -35,13 +35,13 @@ XiaoFeng.Redis generator with [XiaoFeng.Redis](https://github.com/zhuovi/XiaoFen
 .NET CLI
 
 ```
-$ dotnet add package XiaoFeng.Redis
+$ dotnet add package XiaoFeng.Redis --version 2.0.0
 ```
 
 Package Manager
 
 ```
-PM> Install-Package XiaoFeng.Redis
+PM> Install-Package XiaoFeng.Redis --Version 2.0.0
 ```
 
 PackageReference
@@ -50,6 +50,27 @@ PackageReference
 <PackageReference Include="XiaoFeng.Redis" Version="2.0.0" />
 ```
 
+Paket CLI
+
+```
+> paket add XiaoFeng.Redis --version 2.0.0
+```
+
+Script & Interactive
+
+```
+> #r "nuget: XiaoFeng.Redis, 2.0.0"
+```
+
+Cake
+
+```
+// Install XiaoFeng.Redis as a Cake Addin
+#addin nuget:?package=XiaoFeng.Redis&version=2.0.0
+
+// Install XiaoFeng.Redis as a Cake Tool
+#tool nuget:?package=XiaoFeng.Redis&version=2.0.0
+```
 
 # XiaoFeng.Redis
 
