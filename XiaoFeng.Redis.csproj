@@ -24,7 +24,7 @@
 	  <PackageIconUrl>http://nuget.fayelf.com/x.png</PackageIconUrl>
 	  <PackageTags>XiaoFeng;FAYELF;Redis;</PackageTags>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <PackageReleaseNotes>打包基础版本</PackageReleaseNotes>
+	  <PackageReleaseNotes>优化redis连接串;</PackageReleaseNotes>
 	  <DelaySign>False</DelaySign>
 	  <IsPackable>true</IsPackable>
 	  <PackageProjectUrl>https://github.com/zhuovi/XiaoFeng.Redis</PackageProjectUrl>
