@@ -31,6 +31,6 @@
 	  <Title>XiaoFeng.Redis</Title>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="XiaoFeng.Core" Version="2.0.3" />
+    <ProjectReference Include="..\XiaoFeng.Core\XiaoFeng.Core.csproj" />
   </ItemGroup>
 </Project>
