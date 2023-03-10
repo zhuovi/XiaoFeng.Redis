@@ -75,8 +75,9 @@ Redis提供了友好的访问API。
 Redis连接串 
 
 ```csharp
-redis://7092734@127.0.0.1:6379/0?ConnectionTimeout=3000&ReadTimeout=3000&SendTimeout=3000&pool=3
+redis://redisname:7092734@127.0.0.1:6379/0?ConnectionTimeout=3000&ReadTimeout=3000&SendTimeout=3000&pool=3
 ```
+redisname   用户名
 
 7092734	    密码
 
