@@ -76,6 +76,10 @@ Redis连接串
 
 ```csharp
 redis://redisname:7092734@127.0.0.1:6379/0?ConnectionTimeout=3000&ReadTimeout=3000&SendTimeout=3000&pool=3
+[<protocol>]://[[<username>:<password>@]<host>:<port>][/<database>][?<p1>=<v1>[&<p2>=<v2>]]
+|----------|---|-----------|-----------|------|------|------------|-----------------------|
+| protocol |   | username  | password  | host | port |  database  |  params               |
+
 ```
 redisname   用户名
 
