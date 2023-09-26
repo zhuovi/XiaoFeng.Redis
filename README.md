@@ -29,42 +29,51 @@ XiaoFeng.Redis generator with [XiaoFeng.Redis](https://github.com/zhuovi/XiaoFen
 .NET CLI
 
 ```
-$ dotnet add package XiaoFeng.Redis --version 2.0.1
+$ dotnet add package XiaoFeng.Redis --version 2.0.2
 ```
 
 Package Manager
 
 ```
-PM> Install-Package XiaoFeng.Redis --Version 2.0.1
+PM> Install-Package XiaoFeng.Redis --Version 2.0.2
 ```
 
 PackageReference
 
 ```
-<PackageReference Include="XiaoFeng.Redis" Version="2.0.1" />
+<PackageReference Include="XiaoFeng.Redis" Version="2.0.2" />
 ```
 
 Paket CLI
 
 ```
-> paket add XiaoFeng.Redis --version 2.0.1
+> paket add XiaoFeng.Redis --version 2.0.2
 ```
 
 Script & Interactive
 
 ```
-> #r "nuget: XiaoFeng.Redis, 2.0.1"
+> #r "nuget: XiaoFeng.Redis, 2.0.2"
 ```
 
 Cake
 
 ```
 // Install XiaoFeng.Redis as a Cake Addin
-#addin nuget:?package=XiaoFeng.Redis&version=2.0.1
+#addin nuget:?package=XiaoFeng.Redis&version=2.0.2
 
 // Install XiaoFeng.Redis as a Cake Tool
-#tool nuget:?package=XiaoFeng.Redis&version=2.0.1
+#tool nuget:?package=XiaoFeng.Redis&version=2.0.2
 ```
+
+# 版本更新
+
+## 2023-08-29   v 2.0.2
+
+1.优化redis连接串;
+
+2.优化关闭时对象为空的bug;
+
 
 # XiaoFeng 类库包含库
 | 命名空间 | 所属类库 | 开源状态 | 说明 | 包含功能 |
