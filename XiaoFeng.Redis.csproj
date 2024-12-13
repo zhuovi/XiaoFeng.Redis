@@ -23,7 +23,7 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageIconUrl>http://nuget.fayelf.com/x.png</PackageIconUrl>
 		<PackageTags>XiaoFeng;FAYELF;Redis;</PackageTags>
-		<PackageReleaseNotes>优化redis连接串;优化关闭时对象为空的bug;修复Redis中消息队列Key与Value写反的bug;</PackageReleaseNotes>
+		<PackageReleaseNotes>优化redis连接串;优化关闭时对象为空的bug;修复Redis中消息队列Key与Value写反的bug;优化Redis订阅设置为不超时;</PackageReleaseNotes>
 		<DelaySign>False</DelaySign>
 		<IsPackable>true</IsPackable>
 		<PackageProjectUrl>https://github.com/zhuovi/XiaoFeng.Redis</PackageProjectUrl>

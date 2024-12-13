@@ -325,6 +325,36 @@ var set13 = await redis.GetSetUnionStoreAsync("a", "c", "b");
 
 ```
 
+### 发布与订阅
+
+#### 发布
+
+```csharp
+var redis = new XiaoFeng.Redis.RedisClient("redis://127.0.0.1:6379/0");
+redis.Publish("频道消息","频道名称");
+```
+
+#### 订阅
+
+> 订阅要单独启用一个实例,因为订阅消息后一直占用一个通道去等待接收所订阅的消息.
+
+
+```csharp
+var redis = new XiaoFeng.Redis.RedisClient("redis://127.0.0.1:6379/0");
+redis.OnMessage += o =>
+{
+//接收消息 redis server返回的数据格式
+    Console.WriteLine(o);
+};
+redis.OnReceived += o =>
+{
+//接收到频道消息
+    Console.WriteLine(o.ToJson());
+};
+//订阅频道
+redis.SubScribe("频道名称");
+```
+
 
 # 作者介绍
 
